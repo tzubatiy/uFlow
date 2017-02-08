@@ -4,5 +4,5 @@
  */
 
 exports.view = function(req, res){
-  res.render('p2');
+  res.render('flow');
 };

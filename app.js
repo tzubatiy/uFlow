@@ -43,8 +43,8 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/flow', flow.view);
-app.get('/poses', poses.view);
-app.get('/play', poses.view);
+// app.get('/poses', poses.view);
+app.get('/play', play.view);
 
 // Example route
 // app.get('/users', user.list);
