@@ -1,8 +1,8 @@
 
 /*
- * GET home page.
+ * GET poses page.
  */
 
 exports.view = function(req, res){
-  res.render('flow');
+  res.render('poses');
 };

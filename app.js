@@ -12,9 +12,11 @@ var index = require('./routes/index');
 
 var flow = require('./routes/flow');
 
-var poses= require('./routes/poses')
+var poses = require('./routes/poses');
 
-var play=require('./routes/play')
+var play = require('./routes/play');
+
+var settings = require('./routes/settings');
 // Example route
 // var user = require('./routes/user');
 
@@ -45,6 +47,7 @@ app.get('/', index.view);
 app.get('/flow', flow.view);
 app.get('/poses', poses.view);
 app.get('/play', play.view);
+app.get('/settings', settings.view);
 
 // Example route
 // app.get('/users', user.list);
