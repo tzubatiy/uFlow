@@ -6,11 +6,43 @@ h4{
      text-align: center;
 }
 .curmenu{
-     text-align: center;
+	text-align: center;
+}
+#hProfile{
+	display: inline-block;
+}
+#hFlow{
+	display: inline-block;
+}
+#hPoses{
+	display: inline-block;
+}
+#hPlay{
+	display: inline-block;
+}
+#mySet{
+	display: inline-block;
+	position: absolute;
+	right: 20%;
+}
+#myCalender{
+	border-width: 0;
+	width: 800px;
+	height: 600px;
 }
 .progress{
      text-align: center;
 }
 .navmenu{
      text-align: center;
+
 }
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td{
+	padding: 15px;
+}
+
+
