@@ -8,6 +8,18 @@ h4{
 .curmenu{
 	text-align: center;
 }
+#hLogin{
+	padding: 100px 0px 0px 0px;
+}
+.form{
+	padding: 50px 700px 0px 300px;
+}
+.checkbox{
+	padding: 0px 0px 0px 350px;
+}
+.enter{
+	padding: 25px 0px 0px 100px;
+}
 #hProfile{
 	display: inline-block;
 }
@@ -19,6 +31,19 @@ h4{
 }
 #hPlay{
 	display: inline-block;
+}
+#QBreath{
+	float: left;
+	padding: 400px 0px 50px 50px;
+}
+#myBreath{
+	float: left;
+	padding: 100px 0px 50px 50px;
+}
+#myPlay{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
 }
 #mySet{
 	display: inline-block;
