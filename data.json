@@ -1,8 +1,67 @@
-{
-	"poseimg":
+[
 		{
 			"name": "Child pose",
 			"description": "this is the first pose",
-			"imgURL": ""
+			"imgURL": "/Pose-images/Child-Pose.jpg"
+		},
+		{
+			"name": "Table pose",
+			"description": "this is the second pose",
+			"imgURL": "/Pose-images/Table-Pose.jpg"
+		},
+{
+			"name": "Downward Facing Dog",
+			"description": "this is the third pose",
+			"imgURL": "/Pose-images/Downward-Facing-Dog-Pose.jpg"
+		},
+{
+			"name": "Rag Doll Pose",
+			"description": "this is the fourth pose",
+			"imgURL": "/Pose-images/Rag-Doll-Pose.jpg"
+		},
+{
+			"name": "Warrior One Pose",
+			"description": "this is the fifth pose",
+			"imgURL": "/Pose-images/Warrior-One-Pose.jpg"
+		},
+{
+			"name": "Plank Pose",
+			"description": "this is the sixth pose",
+			"imgURL": "/Pose-images/Plank-Pose.jpg"
+		},
+{
+			"name": "Chaturanga Dandasana Pose",
+			"description": "this is the seventh pose",
+			"imgURL": "/Pose-images/Chaturanga-Dandasana-Pose.jpg"
+		},
+{
+			"name": "Cobra Pose",
+			"description": "this is the eight pose",
+			"imgURL": "/Pose-images/Cobra-Pose.jpg"
+		},
+{
+			"name": "Gorilla Pose",
+			"description": "this is the ninth pose",
+			"imgURL": "/Pose-images/Gorilla-Pose.jpg"
+		},
+{
+			"name": "Chair Pose",
+			"description": "this is the tenth pose",
+			"imgURL": "/Pose-images/Chair-Pose.jpg"
+		},
+{
+			"name": "Forward Fold",
+			"description": "this is the eleventh pose",
+			"imgURL": "/Pose-images/Forward-Fold-Pose.jpg"
+		},
+{
+			"name": "Halfway Lift",
+			"description": "this is the twelveth pose",
+			"imgURL": "/Pose-images/Half-Way-Lift.jpg"
+		},
+{
+			"name": "Warrior Two",
+			"description": "this is the thirtheenth pose",
+			"imgURL": "/Pose-images/Warrior-Two-Pose.jpg"
 		}
-}
+]
