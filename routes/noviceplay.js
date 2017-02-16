@@ -1,4 +1,4 @@
 
 exports.view = function(req, res){
-  res.render('play');
+  res.render('noviceplay');
 };

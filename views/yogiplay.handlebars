@@ -1,6 +1,9 @@
-<html>
+<!doctype html>
 
+<html lang="en">
+  
 <head>
+	<meta charset="utf-8">
 	<title>UFlow</title>
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -10,14 +13,34 @@
 
 <body>
 	<div class= "curmenu">
-		<h1 id="hPoses">POSES</h1>
+		<h1 id="hPlay">YOGI PLAY</h1>
 		<h1 id="mySet"><a href='/settings'> 
 			<span class="glyphicon glyphicon-cog"></span></a>
       	</h1>
 	</div>
 
-	<!--this makes the table go under under stuff for some rsn<div class= "progress"--> 
-	
+	<div>
+		<h1 id= "QBreath">HOW LONG IS YOUR BREATH CYCLE?  :</h1>
+		<h1 id= "myBreath">
+			<!--box with input in it-->
+		<input type="text" id="" placeholder="">
+		
+		<button id= "myPlay" type="button" class="btn btn-default btn-lg">
+			<span class="glyphicon glyphicon-play"></span>
+		</button>	
+	</div>
+
+	<style>
+	table, th, td{
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	th, td{
+		padding: 15px;
+	}
+	</style>
+
+	</div>
 	<table style= "width:100%">
 	<tr>
 		<td><h2 id= "myProfile"><a href='/index'>PROFILE</a></h2></td>
@@ -27,5 +50,4 @@
 	</table>
 	</div>
 </body>
-
 </html>

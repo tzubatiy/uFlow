@@ -14,7 +14,8 @@ var flow = require('./routes/flow');
 
 var poses = require('./routes/poses');
 
-var play = require('./routes/play');
+var noviceplay = require('./routes/noviceplay');
+var yogiplay = require('./routes/yogiplay');
 
 var settings = require('./routes/settings');
 
@@ -48,7 +49,8 @@ if ('development' == app.get('env')) {
 app.get('/index', index.view);
 app.get('/flow', flow.view);
 app.get('/poses', poses.view);
-app.get('/play', play.view);
+app.get('/noviceplay', noviceplay.view);
+app.get('/yogiplay', yogiplay.view);
 app.get('/settings', settings.view);
 app.get('/' , login.view);
 
