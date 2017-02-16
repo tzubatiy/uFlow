@@ -2,12 +2,12 @@
 		{
 			"name": "Child pose",
 			"description": "this is the first pose",
-			"imgURL": "/Pose-images/Child-Pose.jpg"
+			"imgURL": "Pose-Images/Child-Pose.jpg"
 		},
 		{
 			"name": "Table pose",
 			"description": "this is the second pose",
-			"imgURL": "/Pose-images/Table-Pose.jpg"
+			"imgURL": "Pose-Images/Table-Pose.jpg"
 		},
 {
 			"name": "Downward Facing Dog",
