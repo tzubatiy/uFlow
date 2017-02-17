@@ -14,67 +14,67 @@
 {
 			"name": "Downward Facing Dog",
 			"description": "this is the third pose",
-			"imgURL": "/Pose-Images/Downward-Facing-Dog-Pose.jpg",
+			"imgURL": "Pose-Images/Downward-Facing-Dog-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/j97SSGsnCAQ"
 		},
 {
 			"name": "Rag Doll Pose",
 			"description": "this is the fourth pose",
-			"imgURL": "/Pose-Images/Rag-Doll-Pose.jpg",
+			"imgURL": "Pose-Images/Rag-Doll-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/Hc8WiCFirp8"
 		},
 {
 			"name": "Warrior One Pose",
 			"description": "this is the fifth pose",
-			"imgURL": "/Pose-Images/Warrior-One-Pose.jpg",
+			"imgURL": "Pose-Images/Warrior-One-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/k4qaVoAbeHM"
 		},
 {
 			"name": "Plank Pose",
 			"description": "this is the sixth pose",
-			"imgURL": "/Pose-Images/Plank-Pose.jpg",
+			"imgURL": "Pose-Images/Plank-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/6qg3r4zZE_k"
 		},
 {
 			"name": "Chaturanga Dandasana Pose",
 			"description": "this is the seventh pose",
-			"imgURL": "/Pose-Images/Chaturanga-Dandasana-Pose.jpg",
+			"imgURL": "Pose-Images/Chaturanga-Dandasana-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/MGahVbKcXuA"
 		},
 {
 			"name": "Cobra Pose",
 			"description": "this is the eight pose",
-			"imgURL": "/Pose-Images/Cobra-Pose.jpg",
+			"imgURL": "Pose-Images/Cobra-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/XU0wJ0OTopU"
 		},
 {
 			"name": "Gorilla Pose",
 			"description": "this is the ninth pose",
-			"imgURL": "/Pose-Images/Gorilla-Pose.jpg",
+			"imgURL": "Pose-Images/Gorilla-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/yCrFPSPTza4"
 		},
 {
 			"name": "Chair Pose",
 			"description": "this is the tenth pose",
-			"imgURL": "/Pose-Images/Chair-Pose.jpg",
+			"imgURL": "Pose-Images/Chair-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/ySafTekJ3Ls"
 		},
 {
 			"name": "Forward Fold",
 			"description": "this is the eleventh pose",
-			"imgURL": "/Pose-Images/Forward-Fold-Pose.jpg",
+			"imgURL": "Pose-Images/Forward-Fold-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/g7Uhp5tphAs"
 		},
 {
 			"name": "Halfway Lift",
 			"description": "this is the twelveth pose",
-			"imgURL": "/Pose-Images/Half-Way-Lift.jpg",
+			"imgURL": "Pose-Images/Half-Way-Lift.jpg",
 			"videoURL": "https://www.youtube.com/embed/ihj4dVBXMPg"
 		},
 {
 			"name": "Warrior Two",
 			"description": "this is the thirtheenth pose",
-			"imgURL": "/Pose-Images/Warrior-Two-Pose.jpg",
+			"imgURL": "Pose-Images/Warrior-Two-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/4Ejz7IgODlU"
 		}
 ]
