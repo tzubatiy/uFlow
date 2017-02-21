@@ -34,11 +34,11 @@ h4{
 }
 #QBreath{
 	float: left;
-	padding: 400px 0px 50px 50px;
+	padding: 100px 0px 50px 50px;
 }
 #myBreath{
 	float: left;
-	padding: 500px 0px 50px 50px;
+	padding: 200px 0px 50px 50px;
 }
 #mySet{
 	display: inline-block;
@@ -60,7 +60,7 @@ h4{
 	position: absolute;
 	left: 50%;
 	right: 50%;
-	padding: 100px 0px 0px 0px;
+	padding: 500px 0px 0px 0px;
 }
 #play{
 	font-size: 300px;
