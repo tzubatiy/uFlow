@@ -57,13 +57,14 @@ h4{
      text-align: center;
 }
 .myPlay{
-	position: absolute;
-	left: 50%;
-	right: 50%;
+	/*position: absolute;*/
+	/*left: 50%;*/
+	/*right: 50%;*/
 	padding: 500px 0px 0px 0px;
 }
 #play{
-	font-size: 300px;
+	font-size: 200px;
+	text-align: center;
 }
 table, th, td{
 	border: 1px solid black;
