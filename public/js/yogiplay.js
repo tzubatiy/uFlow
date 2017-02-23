@@ -11,10 +11,18 @@ $(document).ready(function() {
 function initializePage() {
 	console.log("Playing file")
 	$("#play").click(function(e) {
-		var audio = new Audio('int20.mp3');
+		var time = $("#time option:selected").text();
+		console.log("profile/" + time);
+
+		$.get("/profile/" + time, addFlowsdone);
+		var audio = new Audio('nov20.mp3');
 		audio.play();
 	});
 
+function addFlowsdone(e){
+	console.log("Flows will be added");
+
+}
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
 }
