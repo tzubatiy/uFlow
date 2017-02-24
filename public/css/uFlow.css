@@ -32,6 +32,12 @@ h4{
 #hPlay{
 	display: inline-block;
 }
+#hSet{
+	display: inline-block;
+}
+#hInfo{
+	display: inline-block;
+}
 #QBreath{
 	float: left;
 	padding: 100px 0px 50px 50px;
@@ -39,6 +45,11 @@ h4{
 #myBreath{
 	float: left;
 	padding: 200px 0px 50px 50px;
+}
+#myInfo{
+	display: inline-block;
+	position: absolute;
+	left: 20%;
 }
 #mySet{
 	display: inline-block;

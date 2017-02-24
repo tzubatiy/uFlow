@@ -1,6 +1,6 @@
 <html>
-
 <head>
+	<meta charset="utf-8">
 	<title>UFlow</title>
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -10,22 +10,13 @@
 
 <body>
 	<div class= "curmenu">
-		<h1 id="myInfo"><a href='/information'>
-			<span class="glyphicon glyphicon-info-sign"></span></a>
-		</h1>
-		<h1 id="hPoses">POSES</h1>
+		<h1 id= "hInfo">INFORMATION</h1>
 		<h1 id="mySet"><a href='/settings'> 
 			<span class="glyphicon glyphicon-cog"></span></a>
       	</h1>
 	</div>
-
-	{{#each poses}}
-	<p><center>{{name}}</center></p>
-	<hr><center><img width= "200" height= "200" src= "{{imgURL}}"></center></hr>
-	<hr><center><iframe width="560" height="315" src="{{videoURL}}"></iframe></center></hr>
-	{{/each}}
-	<!--this makes the table go under under stuff for some rsn<div class= "progress"--> 
 	
+	</div>
 	<table style= "width:100%">
 	<tr>
 		<td><h2 id= "myProfile"><a href='/index'>PROFILE</a></h2></td>
@@ -35,5 +26,4 @@
 	</table>
 	</div>
 </body>
-
 </html>

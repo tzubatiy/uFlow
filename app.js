@@ -21,7 +21,9 @@ var settings = require('./routes/settings');
 
 var login = require('./routes/login');
 
-var profile = require('./routes/profile')
+var profile = require('./routes/profile');
+
+var information = require('./routes/information');
 // Example route
 // var user = require('./routes/user');
 
@@ -56,6 +58,7 @@ app.get('/yogiplay', yogiplay.view);
 app.get('/settings', settings.view);
 app.get('/' , login.view);
 app.get('/profile/:time', index.changeTime);
+app.get('/information', information.view);
 
 // Example route
 // app.get('/users', user.list);
