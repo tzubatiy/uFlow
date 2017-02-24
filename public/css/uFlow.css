@@ -1,3 +1,6 @@
+body{
+	width: 100%;
+}
 h2{
      text-align: center;
      margin-top: 20px;
@@ -12,13 +15,17 @@ h4{
 	padding: 100px 0px 0px 0px; 
 }
 .form{
-	padding:20px;
+	padding:50px 50px 0px 100px;
 }
 .checkbox{
-	padding: 0px 0px 0px 50px;
+	padding: 50px 0px 0px 150px;
 }
 .enter{
-	padding: 0px 0px 0px 175px;
+	padding: 0px 0px 0px 0px;
+}
+.calender{
+	width: 100%;
+	height: 400px;
 }
 #hProfile{
 	display: inline-block;
@@ -40,11 +47,11 @@ h4{
 }
 #QBreath{
 	float: left;
-	padding: 100px 0px 50px 50px;
+	padding: 50px 0px 0px 50px;
 }
 #myBreath{
 	float: left;
-	padding: 200px 0px 50px 50px;
+	padding: 0px 0px 0px 50px;
 }
 #myInfo{
 	display: inline-block;
