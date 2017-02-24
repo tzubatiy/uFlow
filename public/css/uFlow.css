@@ -27,6 +27,8 @@ h4{
 .calender{
 	width: 320px;
 	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
 }
 #hProfile{
 	display: inline-block;
