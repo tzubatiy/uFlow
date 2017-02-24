@@ -9,7 +9,8 @@ h4{
      text-align: center;
 }
 .curmenu{
-	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 #hLogin{
 	padding: 100px 0px 0px 0px; 
@@ -55,13 +56,9 @@ h4{
 }
 #myInfo{
 	display: inline-block;
-	position: absolute;
-	left: 20%;
 }
 #mySet{
 	display: inline-block;
-	position: absolute;
-	right: 20%;
 }
 
 .progress{
