@@ -12,6 +12,18 @@ h4{
 	display: flex;
 	justify-content: center;
 }
+.hamburger{
+	margin: 20px;
+}
+.hammenu{
+	width: 35px;
+	height: 5px;
+	background-color: black;
+	margin: 6px 0px 0px ;
+}
+.myMenu{
+	display: none;
+}
 #hLogin{
 	padding: 100px 0px 0px 0px; 
 }
