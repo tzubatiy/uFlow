@@ -82,12 +82,16 @@ h4{
 	/*position: absolute;*/
 	/*left: 50%;*/
 	/*right: 50%;*/
-	padding: 500px 0px 0px 0px;
+	/*padding: 500px 0px 0px 0px;*/
 }
 #play{
-	font-size: 200px;
-	text-align: center;
-	
+	font-size: 10em;
+	/*text-align: center;*/
+}
+#pause{
+	font-size: 10em;
+	/*text-align: center;*/
+	/*display: none;*/
 }
 table, th, td{
 	border: 1px solid black;
