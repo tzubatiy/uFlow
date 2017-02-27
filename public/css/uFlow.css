@@ -8,6 +8,13 @@ h2{
 h4{
      text-align: center;
 }
+h6{
+	font-size: 250%;
+}
+.button {
+	 border: 50px solid black;
+	}
+
 .curmenu{
 	display: flex;
 	justify-content: center;
@@ -79,6 +86,7 @@ h4{
     text-align: center;
 }
 .myPlay{
+	 /*border: 5px solid black;*/
 	/*position: absolute;*/
 	/*left: 50%;*/
 	/*right: 50%;*/
