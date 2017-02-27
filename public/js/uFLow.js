@@ -1,9 +1,9 @@
-
+	
 $(document).ready(function() {
-	initializePage();
+	showHam();
 })
 
-function initializePage() {
+function showHam() {
 	$(".hamburger").click(function() {
 		$(".myMenu").slideToggle();
 	});
