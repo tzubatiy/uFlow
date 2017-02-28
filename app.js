@@ -17,6 +17,9 @@ var poses = require('./routes/poses');
 var noviceplay = require('./routes/noviceplay');
 var yogiplay = require('./routes/yogiplay');
 
+var vnoviceplay = require('./routes/vnoviceplay');
+var vyogiplay = require('./routes/vyogiplay');
+
 var settings = require('./routes/settings');
 
 var login = require('./routes/login');
@@ -55,6 +58,8 @@ app.get('/flow', flow.view);
 app.get('/poses', poses.view);
 app.get('/noviceplay', noviceplay.view);
 app.get('/yogiplay', yogiplay.view);
+app.get('/vnoviceplay', vnoviceplay.view);
+app.get('/vyogiplay', vyogiplay.view);
 app.get('/settings', settings.view);
 app.get('/' , login.view);
 app.get('/profile/:time', index.changeTime);
