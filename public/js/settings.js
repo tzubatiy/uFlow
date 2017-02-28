@@ -3,10 +3,11 @@ $(document).ready(function() {
 })
 
 function initializePage(){
-	$("onBut").click(function){
-		ga("send", "event", "on", "click");
-	}
-	$("offBut").click(function){
-		ga("send", "event", "off", "click");
-	};
+	$(".onBut").click(function(){
+		ga("send", "event", "on", "click")
+		console.log("clicked");
+	})
+	$(".offBut").click(function(){
+		ga("send", "event", "off", "click")
+	});
 }
