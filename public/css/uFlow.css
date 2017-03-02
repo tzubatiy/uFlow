@@ -64,8 +64,11 @@ h6{
 #hSet{
 	display: inline-block;
 }
-#hInfo{
+#bHelp{
 	display: inline-block;
+}
+.info{
+	
 }
 #QBreath{
 	float: left;
@@ -95,6 +98,8 @@ h6{
 }
 #play{
 	font-size: 10em;
+/*	border: 4px solid black;
+	border-radius: 50%;*/
 	/*text-align: center;*/
 }
 #pause{

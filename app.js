@@ -9,6 +9,7 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
+var index_B = require('./routes/index_B');
 
 var flow = require('./routes/flow');
 
@@ -64,6 +65,7 @@ app.get('/settings', settings.view);
 app.get('/' , login.view);
 app.get('/profile/:time', index.changeTime);
 app.get('/information', information.view);
+app.get('/index_B', index_B.view);
 
 // Example route
 // app.get('/users', user.list);
