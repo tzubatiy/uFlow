@@ -55,6 +55,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/index', index.view);
+app.get('/index_B', index_B.view);
 app.get('/flow', flow.view);
 app.get('/poses', poses.view);
 app.get('/noviceplay', noviceplay.view);
@@ -65,7 +66,6 @@ app.get('/settings', settings.view);
 app.get('/' , login.view);
 app.get('/profile/:time', index.changeTime);
 app.get('/information', information.view);
-app.get('/index_B', index_B.view);
 
 // Example route
 // app.get('/users', user.list);
