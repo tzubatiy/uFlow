@@ -8,8 +8,10 @@
 //var fs = require("fs");
 
 var data = require('../profiles.json');
+var version;
 
 exports.view = function(req, res){
+	version = true;
 	console.log(data)
   res.render('index_B', data);
 };
