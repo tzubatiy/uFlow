@@ -6,5 +6,5 @@ $(document).ready(function() {
 function showHam() {
 	$(".hamburger").click(function() {
 		$(".myMenu").slideToggle();
-	})
+	});
 }
