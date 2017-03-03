@@ -3,5 +3,5 @@
  */
 
 exports.view = function(req, res){
-  res.render('information');
+  res.render('help');
 };
