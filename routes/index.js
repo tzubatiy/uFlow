@@ -8,12 +8,18 @@
 //var fs = require("fs");
 
 var data = require('../profiles.json');
-var version
+var version;
 
 exports.view = function(req, res){
 	version = false;
 	console.log(data)
-  res.render('index', data);
+ 	res.render('index', data);
+};
+
+exports.viewB = function(req, res){
+	version = true;
+	console.log(data)
+ 	res.render('index_B', data);
 };
 
 exports.changeTime = function(req, res){

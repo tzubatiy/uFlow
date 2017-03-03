@@ -3,8 +3,8 @@ $(document).ready(function() {
 })
 
 function initializePage(){
-	$("#bHelp").click(function(){
-		ga("send", "event", "buttonhelp", "click")
+	$("#lHelp").click(function(){
+		ga("send", "event", "menuhelp", "click")
 		console.log("clicked");
 	});
 }

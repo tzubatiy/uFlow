@@ -1,6 +1,21 @@
 <html>
 
 <head>
+<!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='141845910-0',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+
 	<title>UFlow</title>
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -11,7 +26,11 @@
 
 <body>
 	<header>
-	<div class= "curmenu">
+	{{#if version}}
+		<div class= "curmenu">
+		<h1 id="bHelp"><a href='/information' class= "btn btn-info btn-lg"> 
+			<span class="glyphicon glyphicon-question-sign"></span> Need Help</a>
+      	</h1>
 		<h1 id="hProfile">PROFILE</h1>
 		<!-- <h1 id="mySet"><a href='/settings'> 
 			<span class="glyphicon glyphicon-cog"></span></a>
@@ -24,11 +43,29 @@
       			<li><a href= '/index'>PROFILE</a></li>
       			<li><a href= '/flow'>FLOW</a></li>
       			<li><a href= '/poses'>POSES</a></li>
-      			<li id = "lHelp"><a href= '/help'>HELP</a></li>
       			<li><a href= '/'>LOGOUT</a></li> 
       		</ul>
       	</div>
-	</div>
+	{{else}}
+		<div class= "curmenu">
+			<h1 id="hProfile">PROFILE</h1>
+			<!-- <h1 id="mySet"><a href='/settings'> 
+				<span class="glyphicon glyphicon-cog"></span></a>
+      		</h1> -->
+      		<div class= hamburger>
+      			<div class= hammenu></div>
+      			<div class= hammenu></div>
+      			<div class= hammenu></div>
+      			<ul class= "myMenu">
+	      			<li><a href= '/index'>PROFILE</a></li>
+    	  			<li><a href= '/flow'>FLOW</a></li>
+      				<li><a href= '/poses'>POSES</a></li>
+      				<li id = "lHelp"><a href= '/help'>HELP</a></li>
+      				<li><a href= '/'>LOGOUT</a></li> 
+      			</ul>
+      		</div>
+		</div>
+	{{/if}}
 	</header>
 
 	<!--this makes the table go under under stuff for some rsn<div class= "progress"--> 
