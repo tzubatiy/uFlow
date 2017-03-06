@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 function initializePage(){
 	$("#lHelp").click(function(){
-		ga("send", "event", "menuhelp", "click")
+		ga("send", "event", "menuhelp", "click");
 		console.log("clicked");
 	});
 }
