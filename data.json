@@ -1,78 +1,85 @@
 [
 		{
-			"name": "Child pose",
-			"description": "this is the first pose",
+			"name": "Child Pose",
+			"sanskrit": "Balasana",
+			"description": "This is a resting posture. Arrive in your space",
 			"imgURL": "Pose-Images/Child-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/V22xxybieHk"
 		},
 		{
-			"name": "Table pose",
+			"name": "Table Top Pose",
+			"sanskrit": "Bharmanasana",
 			"description": "this is the second pose",
 			"imgURL": "Pose-Images/Table-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/WAsE5erV2ZU"
 		},
 {
 			"name": "Downward Facing Dog",
+			"sanskrit": "Adho mukha svanasana",
 			"description": "this is the third pose",
 			"imgURL": "Pose-Images/Downward-Facing-Dog-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/j97SSGsnCAQ"
 		},
 {
 			"name": "Rag Doll Pose",
+			"sanskrit": "Uttanasana",
 			"description": "this is the fourth pose",
 			"imgURL": "Pose-Images/Rag-Doll-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/Hc8WiCFirp8"
 		},
 {
 			"name": "Warrior One Pose",
+			"sanskrit": "Virabhadrasana I",
 			"description": "this is the fifth pose",
 			"imgURL": "Pose-Images/Warrior-One-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/k4qaVoAbeHM"
 		},
+
 {
-			"name": "Plank Pose",
-			"description": "this is the sixth pose",
-			"imgURL": "Pose-Images/Plank-Pose.jpg",
-			"videoURL": "https://www.youtube.com/embed/6qg3r4zZE_k"
-		},
-{
-			"name": "Chaturanga Dandasana Pose",
+			"name": "High to Low Plank Pose",
+			"sanskrit": "Chaturanga Dandasana Pose",
 			"description": "this is the seventh pose",
 			"imgURL": "Pose-Images/Chaturanga-Dandasana-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/MGahVbKcXuA"
 		},
 {
 			"name": "Cobra Pose",
+			"sanskrit": "Bhujangasana",
 			"description": "this is the eight pose",
 			"imgURL": "Pose-Images/Cobra-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/XU0wJ0OTopU"
 		},
 {
-			"name": "Gorilla Pose",
+			"name": "Hands to Feet- Gorilla Pose",
+			"sanskrit": "Padahastasana",
 			"description": "this is the ninth pose",
 			"imgURL": "Pose-Images/Gorilla-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/yCrFPSPTza4"
 		},
 {
 			"name": "Chair Pose",
+			"sanskrit": "Utkatasana",
 			"description": "this is the tenth pose",
 			"imgURL": "Pose-Images/Chair-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/ySafTekJ3Ls"
 		},
 {
 			"name": "Forward Fold",
+			"sanskrit": "Uttanasana",
 			"description": "this is the eleventh pose",
 			"imgURL": "Pose-Images/Forward-Fold-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/g7Uhp5tphAs"
 		},
 {
 			"name": "Halfway Lift",
+			"sanskrit": "Urdvha Uttnasana",
 			"description": "this is the twelveth pose",
 			"imgURL": "Pose-Images/Half-Way-Lift.jpg",
 			"videoURL": "https://www.youtube.com/embed/ihj4dVBXMPg"
 		},
 {
 			"name": "Warrior Two",
+			"sanskrit": "Virabhadrasana II",
 			"description": "this is the thirtheenth pose",
 			"imgURL": "Pose-Images/Warrior-Two-Pose.jpg",
 			"videoURL": "https://www.youtube.com/embed/4Ejz7IgODlU"
