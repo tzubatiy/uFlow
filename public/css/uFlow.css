@@ -68,11 +68,15 @@ h6{
 	display: inline-block;
 }
 .info{
-	
+	padding: 0px 25px 0px 25px;
 }
 #QBreath{
 	float: left;
 	padding: 50px 0px 0px 50px;
+}
+#EBreath{
+	float: left;
+	padding: 0px 0px 0px 50px;
 }
 #myBreath{
 	float: left;
