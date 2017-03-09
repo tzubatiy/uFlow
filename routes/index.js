@@ -11,16 +11,16 @@ var data = require('../profiles.json');
 var version;
 
 exports.view = function(req, res){
-	version = false;
+	// version = false;
 	console.log(data)
  	res.render('index', data);
 };
 
-exports.viewB = function(req, res){
-	version = true;
-	console.log(data)
- 	res.render('index_B', data);
-};
+// exports.viewB = function(req, res){
+// 	version = true;
+// 	console.log(data)
+//  	res.render('index_B', data);
+// }; not needed anymore, was used to render version b
 
 exports.changeTime = function(req, res){
 	var time = req.params.time;

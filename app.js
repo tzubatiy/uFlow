@@ -9,7 +9,7 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
-// var index = require('./routes/index_B');
+// var index = require('./routes/index_B'); never uncomment this
 
 var flow = require('./routes/flow');
 
@@ -52,7 +52,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/index', index.view);
-app.get('/index_B', index.viewB);
+// app.get('/index_B', index.viewB); used for AB testing
 app.get('/flow', flow.view);
 app.get('/poses', poses.view);
 app.get('/noviceplay', noviceplay.view);
