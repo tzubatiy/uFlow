@@ -11,6 +11,9 @@ h4{
 h6{
 	font-size: 250%;
 }
+body{
+	font: normal 10px Verdana, Arial, sans-serif;
+}
 .button {
 	 border: 50px solid black;
 	}
@@ -22,6 +25,7 @@ h6{
 	justify-content: center;
 	background-color: #46D9E3;
 	border-bottom-style: solid;
+	/*font: Arial;*/
 }
 .hamburger{
 	margin: 20px;

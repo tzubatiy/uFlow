@@ -16,11 +16,11 @@ exports.view = function(req, res){
  	res.render('index', data);
 };
 
-// exports.viewB = function(req, res){
-// 	version = true;
-// 	console.log(data)
-//  	res.render('index_B', data);
-// }; not needed anymore, was used to render version b
+exports.viewB = function(req, res){
+	version = true;
+	console.log(data)
+ 	res.render('index_B', data);
+};
 
 exports.changeTime = function(req, res){
 	var time = req.params.time;

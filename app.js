@@ -48,11 +48,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 // development only
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
-}
+}	
 
 // Add routes here
 app.get('/index', index.view);
-// app.get('/index_B', index.viewB); used for AB testing
+app.get('/index_B', index.viewB);
 app.get('/flow', flow.view);
 app.get('/poses', poses.view);
 app.get('/noviceplay', noviceplay.view);
