@@ -14,10 +14,14 @@ h6{
 .button {
 	 border: 50px solid black;
 	}
-
+.welcome{
+	display: flex;
+}
 .curmenu{
 	display: flex;
 	justify-content: center;
+	background-color: #46D9E3;
+	border-bottom-style: solid;
 }
 .hamburger{
 	margin: 20px;
@@ -66,6 +70,8 @@ h6{
 }
 #bHelp{
 	display: inline-block;
+	padding: 5px 5px 0px px;
+/* padding makes  menu words shift right too much....*/
 }
 .info{
 	padding: 0px 25px 0px 25px;
