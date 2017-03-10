@@ -4,12 +4,18 @@ body{
 h2{
      text-align: center;
      margin-top: 20px;
+     font-family: Garamond, Times, serif;
+}
+h3{
+	font-family: Garamond, Times, serif;
 }
 h4{
      text-align: center;
+     font-family: Garamond, Times, serif;
 }
 h6{
 	font-size: 250%;
+	font-family: Garamond, Times, serif;
 }
 body{
 	/*font: normal 10px Verdana, Arial, sans-serif;*/
@@ -40,6 +46,10 @@ body{
 }
 #hLogin{
 	padding: 100px 0px 0px 0px; 
+	font-family: Garamond, Times, serif;
+}
+#tWelcome{
+	font-family: Garamond, Times, serif;
 }
 .form{
 	padding:50px 50px 0px 100px;
@@ -58,23 +68,41 @@ body{
 }
 #hProfile{
 	display: inline-block;
+	font-family: Garamond, Times, serif;
 }
 #hFlow{
 	display: inline-block;
+	font-family: Garamond, Times, serif;
 }
 #hPoses{
 	display: inline-block;
+	font-family: Garamond, Times, serif;
 }
 #hPlay{
 	display: inline-block;
+	font-family: Garamond, Times, serif;
 }
 #hSet{
 	display: inline-block;
+	font-family: Garamond, Times, serif;
+}
+#hInfo{
+	display: inline-block;
+	font-family: Garamond, Times, serif;
 }
 #bHelp{
 	display: inline-block;
 	padding: 5px 5px 0px px;
 /* padding makes  menu words shift right too much....*/
+}
+.list{
+	font-family: Garamond, Times, serif;
+}
+#novicelink{
+	font-family: Garamond, Times, serif;
+}
+#yogilink{
+	font-family: Garamond, Times, serif;
 }
 .info{
 	padding: 0px 25px 0px 25px;
@@ -82,10 +110,12 @@ body{
 #QBreath{
 	float: left;
 	padding: 50px 0px 0px 50px;
+	font-family: Garamond, Times, serif;
 }
 #EBreath{
 	float: left;
 	padding: 0px 0px 0px 50px;
+	font-family: Garamond, Times, serif;
 }
 #myBreath{
 	float: left;
@@ -94,7 +124,9 @@ body{
 #mySet{
 	display: inline-block;
 }
-
+#iBreath{
+	font-family: Garamond, Times, serif;
+}
 .progress{
      text-align: center;
 }
