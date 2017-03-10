@@ -111,12 +111,14 @@ body{
 }
 #play{
 	font-size: 10em;
+	color: #46D9E3;
 /*	border: 4px solid black;
 	border-radius: 50%;*/
 	/*text-align: center;*/
 }
 #pause{
 	font-size: 10em;
+	color: #46D9E3;
 	/*text-align: center;*/
 	/*display: none;*/
 }
