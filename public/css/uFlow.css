@@ -34,8 +34,6 @@ body{
 }
 .hamburger{
 	margin: 20px;
-	float right;
-	/*position: absolute;*/
 }
 .hammenu{
 	width: 35px;
@@ -44,7 +42,7 @@ body{
 	margin: 6px 0px 0px ;
 }
 .myMenu{
-	/*display: none;*/
+	display: none;
 }
 #hLogin{
 	padding: 100px 0px 0px 0px; 
