@@ -30,10 +30,12 @@ body{
 	display: flex;
 	justify-content: center;
 	background-color: #46D9E3;
-	border-bottom-style: solid;
+	border-bottom: 1px solid;
 }
 .hamburger{
 	margin: 20px;
+	float right;
+	/*position: absolute;*/
 }
 .hammenu{
 	width: 35px;
@@ -42,7 +44,7 @@ body{
 	margin: 6px 0px 0px ;
 }
 .myMenu{
-	display: none;
+	/*display: none;*/
 }
 #hLogin{
 	padding: 100px 0px 0px 0px; 
@@ -60,9 +62,9 @@ body{
 .enter{
 	padding: 0px 50px 0px 150px;
 }
-.calender{
-	width: 320px;
-	height: 300px;
+.statistics{
+	/*width: 320px;
+	height: 300px;*/
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -114,15 +116,42 @@ body{
 }
 #EBreath{
 	float: left;
-	padding: 0px 0px 0px 50px;
+	padding: 0px 50px 0px 50px;
 	font-family: Garamond, Times, serif;
 }
 #myBreath{
 	float: left;
-	padding: 0px 0px 0px 50px;
+	margin: 0px 50px 0px 50px;
+}
+#CBreath{
 }
 #mySet{
 	display: inline-block;
+}
+.bBreath{
+	background-color: #46D9E3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.inexForm{
+	display: inline-block;
+	text-align: center;
+}
+#inhale{
+	width: 111px;
+}
+#exhale{
+	width: 111px;
+}
+#breath{
+	width: 111px;
 }
 #iBreath{
 	font-family: Garamond, Times, serif;
@@ -153,6 +182,14 @@ body{
 	color: #46D9E3;
 	/*text-align: center;*/
 	/*display: none;*/
+}
+.wordPoses{
+	border-top-style: solid;
+}
+.mediaPoses{
+	display: none;
+	padding-bottom: 50px;
+	/*background-color: #E1E8ED;*/
 }
 table, th, td{
 	border: 1px solid black;

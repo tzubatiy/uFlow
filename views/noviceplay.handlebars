@@ -18,7 +18,10 @@
 		<h1 id="hPlay">NOVICE PLAY</h1>
 		<!-- <h1 id="mySet"><a href='/settings'> 
 			<span class="glyphicon glyphicon-cog"></span></a>
-      	</h1> -->	
+      	</h1> -->
+        <!-- <button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-menu-hamburger"></span> Menu-hamburger
+        </button> -->	
       	<div class= hamburger>
       		<div class= hammenu></div>
       		<div class= hammenu></div>
@@ -36,16 +39,28 @@
 
 	<div>
 		<h1 id= "QBreath">How Long Is Your Breath Cycle? :</h1>
-		<p><font size= "5" id = "EBreath" style = "color: #46D9E3;"> Breath cycle = inhale time (seconds) + exhale time (seconds)</font></p>
+		<p ><font size= "5" id = "EBreath" style = "color: #46D9E3;"><!--  Breath cycle =  -->
+		<div class = "inexForm">
+		<input type="text" class="form-control" id="inhale" placeholder="Inhale time(s)"> 
+		+
+		</div>
+		<div class = "inexForm">
+		<input type="text" class="form-control" id="exhale" placeholder="Exhale time(s)">
+		<button class="bBreath">Calculate</button> =
+		</div>
+		<div class = "inexForm">
+		<input type="text" class="form-control" id="breath" placeholder="Breath Cycle(s)">
+		</div>
+		</font></p>
 		<h1 id= "myBreath">
-		<form action="/action_page.php">
+		<!-- <form action="/action_page.php">
  		 	<select id = "time" name="time">
     			<option value="6 sec">6 sec</option>
     			<option value="8 sec">8 sec</option>
     			<option value="10 sec">10 sec</option>
     			<option value="12 sec">12 sec</option>
   			</select>
-		</form>
+		</form> -->
 		<br>
 		<p id = "iBreath"> <font size = "5"> Begin your audio guided flow and focus your gaze inward: </font></p>
 	</div>
